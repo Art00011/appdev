@@ -1,0 +1,69 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.top {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.image {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid black;
+}
+
+.image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: black;
+}
+
+.title {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.menu {
+    border-bottom: 3px solid black;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.menu li:before {
+    content: "• ";
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.content {
+    padding: 20px;
+}
